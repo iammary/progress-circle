@@ -8,6 +8,8 @@
 	var ProgressCircle = function( element, options ){
 		// Defaults are below
 		var settings = $.extend( {}, $.fn.progressCircle.defaults, options );
+		settings.nPercent > 100 || settings.nPercent < 0 ? settings.nPercent = 0 : settings.nPercent;
+		console.log(settings.nPercent);
 		var nRadians = ( 360 * settings.nPercent ) / 100;
 
 		// Thickness constant

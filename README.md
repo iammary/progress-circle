@@ -5,7 +5,7 @@ A jQuery plugin that creates a percentage circle based on pure CSS.
 
 ### Demo
 
-[iammary.github.io/progress-circle/](iammary.github.io/progress-circle/)
+http://iammary.github.io/progress-circle/
 
 ### How to use
 
@@ -29,8 +29,12 @@ Below is an example of the code with all available options and their defaults:
 $( '#circle' ).progressCircle({
 	nPercent        : 50,
 	showPercentText : true,
-	thickness       : 100,
-	circleSize      : 3
+	thickness       : 3,
+	circleSize      : 100
 });
 ```
+
+### Code Reference
+
+Checkout development branch at https://github.com/iammary/progress-circle/tree/dev
 

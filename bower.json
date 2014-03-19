@@ -1,0 +1,26 @@
+{
+  "name": "progress-circle",
+  "main": "progress-circle.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/iammary/progress-circle",
+  "authors": [
+    "Jes Anub"
+  ],
+  "description": "A jQuery plugin that creates a percentage circle based on pure CSS.",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "css",
+    "percentage",
+    "circle"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/js/libs",
+    "test",
+    "tests"
+  ]
+}

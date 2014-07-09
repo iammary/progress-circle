@@ -1,6 +1,7 @@
 /**************************************************************
 *
-* Progress Circle 1.0
+* Progress Circle 1.1.0
+* Updated support for bootstrap
 *
 **************************************************************/
 
@@ -73,6 +74,12 @@
 				'width'        : offset,
 				'height'       : offset
 			})
+			if( settings.barOverride ) {
+				progCirc.find(' .slice > div.bar ').css({
+					'width'        : '1em',
+					'height'       : '1em'
+				})
+			}
 			progCirc.find('.after').css({
 				'top'    : border,
 				'left'   : border,
@@ -119,7 +126,8 @@
 		nPercent        : 50,
 		showPercentText : true,
 		circleSize      : 100,
-		thickness       : 3
+		thickness       : 3,
+		barOverride     : true
 	};
 
 })( jQuery );
